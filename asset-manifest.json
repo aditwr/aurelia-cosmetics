@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/aurelia-cosmetics/static/css/main.cc4b6d6c.css",
+    "main.js": "/aurelia-cosmetics/static/js/main.8a9e99f6.js",
+    "static/js/787.a99b3c1a.chunk.js": "/aurelia-cosmetics/static/js/787.a99b3c1a.chunk.js",
+    "static/media/product-2.png": "/aurelia-cosmetics/static/media/product-2.9f2bc80ba68794861179.png",
+    "static/media/product-1.png": "/aurelia-cosmetics/static/media/product-1.90f5a53c507170ea5707.png",
+    "static/media/product-4.png": "/aurelia-cosmetics/static/media/product-4.e161db40da79160778fa.png",
+    "static/media/carousel-bg.png": "/aurelia-cosmetics/static/media/carousel-bg.3273c92107c96fde2e2e.png",
+    "static/media/category-1.png": "/aurelia-cosmetics/static/media/category-1.0d6acca2390f7972d759.png",
+    "static/media/category-4.png": "/aurelia-cosmetics/static/media/category-4.a18d1b1945f636bee892.png",
+    "static/media/product-3.png": "/aurelia-cosmetics/static/media/product-3.e6df80d4a271d0837fea.png",
+    "static/media/product-5.png": "/aurelia-cosmetics/static/media/product-5.38e16c94432216ab1168.png",
+    "static/media/about.png": "/aurelia-cosmetics/static/media/about.3b7236d40e4b1a6466f0.png",
+    "static/media/product-6.png": "/aurelia-cosmetics/static/media/product-6.4d0f71faaea3cf9bec90.png",
+    "static/media/news-1.png": "/aurelia-cosmetics/static/media/news-1.a3527f62d8a420814e55.png",
+    "static/media/carousel-main-img.png": "/aurelia-cosmetics/static/media/carousel-main-img.99976cc85457ae6dd2b4.png",
+    "static/media/category-2.png": "/aurelia-cosmetics/static/media/category-2.fee65411137b6a60ce02.png",
+    "static/media/category-3.png": "/aurelia-cosmetics/static/media/category-3.3873ea423aa34cafa73b.png",
+    "static/media/costumer-5.png": "/aurelia-cosmetics/static/media/costumer-5.335f02d2d989a8ab0d21.png",
+    "static/media/costumer-3.png": "/aurelia-cosmetics/static/media/costumer-3.00adc7251a92aad5bee6.png",
+    "static/media/costumer-2.png": "/aurelia-cosmetics/static/media/costumer-2.ddeabcf072e9e831fc00.png",
+    "static/media/costumer-4.png": "/aurelia-cosmetics/static/media/costumer-4.8f1f57f5e39fa6a3c6f1.png",
+    "static/media/costumer-1.png": "/aurelia-cosmetics/static/media/costumer-1.c21a8308016f33b97d28.png",
+    "static/media/brand-3.png": "/aurelia-cosmetics/static/media/brand-3.2a482e52f413abd38d9d.png",
+    "static/media/brand-2.png": "/aurelia-cosmetics/static/media/brand-2.f48d87c49d9a172c2e7d.png",
+    "static/media/brand-4.png": "/aurelia-cosmetics/static/media/brand-4.14d618df108b0e00e054.png",
+    "static/media/Aurelia-logo-white.svg": "/aurelia-cosmetics/static/media/Aurelia-logo-white.1beca99e29cff62d91df6e1b8a23bcf0.svg",
+    "static/media/icon-shopping-cart.svg": "/aurelia-cosmetics/static/media/icon-shopping-cart.35140b960dd8fa9daabad76b183200ca.svg",
+    "static/media/icon-favorite.svg": "/aurelia-cosmetics/static/media/icon-favorite.78af95585aebedee10308f8228c3f2c2.svg",
+    "index.html": "/aurelia-cosmetics/index.html",
+    "static/media/icon-hamburger.svg": "/aurelia-cosmetics/static/media/icon-hamburger.562099af893342b295d2bfc738493ed3.svg",
+    "static/media/icon-search.svg": "/aurelia-cosmetics/static/media/icon-search.af8adc0f4e848fe93e3c3c854465b5bb.svg",
+    "main.cc4b6d6c.css.map": "/aurelia-cosmetics/static/css/main.cc4b6d6c.css.map",
+    "main.8a9e99f6.js.map": "/aurelia-cosmetics/static/js/main.8a9e99f6.js.map",
+    "787.a99b3c1a.chunk.js.map": "/aurelia-cosmetics/static/js/787.a99b3c1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc4b6d6c.css",
+    "static/js/main.8a9e99f6.js"
+  ]
+}
