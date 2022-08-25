@@ -1,5 +1,6 @@
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import anime from "animejs";
 import React, { Component } from "react";
 
 // img
@@ -8,13 +9,19 @@ import carouselMainImg from "./../../../assets/img/hero/carousel-main-img.png";
 import Particle from "./Particles";
 
 export default class Carousel extends Component {
+  componentDidMount() {
+    // carousel animation
+  }
   render() {
     return (
       <div
         id="carousel"
         className="h-[588px] pt-16 bg-palleteFreshness relative overflow-hidden z-0"
       >
-        <Particle />
+        {/* front-wrapper */}
+        <div className="carousel-front-backdrop absolute top-0 right-0 w-full h-full bg-palleteWhite"></div>
+        {/* particles js */}
+        <Particle id="carousel-particle" />
         {/* container */}
         <div className="px-5 lg:px-0 pt-6 lg:w-[1200px] lg:mx-auto text-left relative z-20">
           <div className="lg:w-7/12 md:pt-4 lg:pt-16">
@@ -26,12 +33,16 @@ export default class Carousel extends Component {
               Young cosmetics base on skin care, so it make you feel your skin
               are most comfortable
             </p>
+            {/* call-to-action */}
             <a
               href="example.com"
-              className="font-montserrat font-semibold text-slate-800 px-3 py-2 bg-palleteTenderness"
+              className="font-montserrat font-semibold text-slate-800 px-3 py-2 bg-palleteTenderness group transition-all duration-300 hover:bg-palleteBase hover:rounded"
             >
-              <FontAwesomeIcon icon={faShoppingCart} className="mr-3" />
-              SHOP NOW
+              <FontAwesomeIcon
+                icon={faShoppingCart}
+                className="mr-3 group-hover:text-white"
+              />
+              <span className="group-hover:text-white">SHOP NOW</span>
             </a>
           </div>
           {/* main-img */}

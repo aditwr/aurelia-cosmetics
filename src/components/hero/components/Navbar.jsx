@@ -4,9 +4,16 @@ import iconSearch from "./../../../assets/img/icons/icon-search.svg";
 import iconFavorite from "./../../../assets/img/icons/icon-favorite.svg";
 import iconShopCart from "./../../../assets/img/icons/icon-shopping-cart.svg";
 import iconHamburger from "./../../../assets/img/icons/icon-hamburger.svg";
+import anime from "animejs";
 
 export default class Navbar extends Component {
-  componentDidMount() {}
+  componentDidMount() {
+    anime({
+      targets: "header",
+      opacity: [0, 1],
+      duration: 500,
+    });
+  }
   render() {
     return (
       <header className="header w-full fixed z-50 navbar-wrapper bg-palleteWhite h-16 shadow-sm">
