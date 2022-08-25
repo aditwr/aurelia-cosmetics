@@ -20,6 +20,10 @@ export default class Carousel extends Component {
         easing: "linear",
       })
       .add({
+        targets: ".main-img",
+        opacity: 1,
+      })
+      .add({
         targets: ".heading1",
         opacity: 1,
         duration: 500,
@@ -72,7 +76,7 @@ export default class Carousel extends Component {
           <img
             src={carouselMainImg}
             alt="cosmetics"
-            className="absolute z-0 right-0 top-0 md:bottom-0 w-48 sm:w-64 md:w-80 lg:w-[460px] translate-y-[324px] sm:translate-y-[240px] md:translate-y-[196px] lg:translate-y-[46px] md:-translate-x-[16%] lg:translate-x-0 transition-all"
+            className="main-img absolute opacity-0 z-0 right-0 top-0 md:bottom-0 w-48 sm:w-64 md:w-80 lg:w-[460px] translate-y-[324px] sm:translate-y-[240px] md:translate-y-[196px] lg:translate-y-[46px] md:-translate-x-[16%] lg:translate-x-0 transition-all"
           />
           {/* rectangle */}
           <div className="rectangle w-[690px] lg:w-[800px] h-96 lg:h-[436px] bg-white -rotate-[58deg] -z-10 absolute right-0 top-0 translate-x-[68%] sm:translate-x-[50%] md:translate-x-[32%] lg:translate-x-[214px] translate-y-[16%] md:translate-y-0 lg:-translate-y-[24px] transition-all shadow-xl"></div>
