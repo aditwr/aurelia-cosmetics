@@ -64,66 +64,20 @@ class Products extends Component {
             <ProductBox img={product2} price="$39.00" productName="Hair Mask" />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="">
-              <div className="aspect-[1/1.125] flex overflow-hidden">
-                <img
-                  src={product3}
-                  alt="cosmetic product"
-                  className="w-full object-cover object-center"
-                />
-              </div>
-              <div className="text-center">
-                <p className="mt-2 font-medium text-base">$59.00</p>
-                <h5 className="mt-2 font-semibold text-base">Lipstick</h5>
-              </div>
-            </div>
+            <ProductBox img={product3} price="$59.00" productName="Lipstick" />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="">
-              <div className="aspect-[1/1.125] flex overflow-hidden">
-                <img
-                  src={product4}
-                  alt="cosmetic product"
-                  className="w-full object-cover object-center"
-                />
-              </div>
-              <div className="text-center">
-                <p className="mt-2 font-medium text-base">$290.00</p>
-                <h5 className="mt-2 font-semibold text-base">
-                  Cosmetics Pack I
-                </h5>
-              </div>
-            </div>
+            <ProductBox
+              img={product4}
+              price="$290.00"
+              productName="Cosmetics Pack I"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="">
-              <div className="aspect-[1/1.125] flex overflow-hidden">
-                <img
-                  src={product5}
-                  alt="cosmetic product"
-                  className="w-full object-cover object-center"
-                />
-              </div>
-              <div className="text-center">
-                <p className="mt-2 font-medium text-base">$45.00</p>
-                <h5 className="mt-2 font-semibold text-base">Mascara</h5>
-              </div>
-            </div>
+            <ProductBox img={product5} price="$45.00" productName="Mascara" />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="">
-              <div className="aspect-[1/1.125] flex overflow-hidden">
-                <img
-                  src={product6}
-                  alt="cosmetic product"
-                  className="w-full object-cover object-center"
-                />
-              </div>
-              <div className="text-center">
-                <p className="mt-2 font-medium text-base">$49.00</p>
-                <h5 className="mt-2 font-semibold text-base">Powder</h5>
-              </div>
-            </div>
+            <ProductBox img={product6} price="$49.00" productName="Powder" />
           </SwiperSlide>
         </Swiper>
       </div>
