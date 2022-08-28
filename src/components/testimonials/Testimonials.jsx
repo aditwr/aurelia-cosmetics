@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import SectionHead from "../partials/SectionHead";
+import SectionHead from "../../partials/SectionHead";
 import Testimonial from "./Testimonial";
 
 class Testimonials extends Component {

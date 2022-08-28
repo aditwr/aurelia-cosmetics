@@ -13,6 +13,7 @@ import product3 from "./../../assets/img/popular-product/product-3.png";
 import product4 from "./../../assets/img/popular-product/product-4.png";
 import product5 from "./../../assets/img/popular-product/product-5.png";
 import product6 from "./../../assets/img/popular-product/product-6.png";
+import ProductBox from "../../partials/ProductBox";
 
 class Products extends Component {
   render() {
@@ -57,34 +58,10 @@ class Products extends Component {
           }}
         >
           <SwiperSlide>
-            <div className="">
-              <div className="aspect-[1/1.125] flex overflow-hidden">
-                <img
-                  src={product1}
-                  alt="cosmetic product"
-                  className="w-full object-cover object-center"
-                />
-              </div>
-              <div className="text-center">
-                <p className="mt-2 font-medium text-base">$50.00</p>
-                <h5 className="mt-2 font-semibold text-base">Oil Serum</h5>
-              </div>
-            </div>
+            <ProductBox img={product1} price="$50.00" productName="Oil Serum" />
           </SwiperSlide>
           <SwiperSlide>
-            <div className="">
-              <div className="aspect-[1/1.125] flex overflow-hidden">
-                <img
-                  src={product2}
-                  alt="cosmetic product"
-                  className="w-full object-cover object-center"
-                />
-              </div>
-              <div className="text-center">
-                <p className="mt-2 font-medium text-base">$39.00</p>
-                <h5 className="mt-2 font-semibold text-base">Hair Mask</h5>
-              </div>
-            </div>
+            <ProductBox img={product2} price="$39.00" productName="Hair Mask" />
           </SwiperSlide>
           <SwiperSlide>
             <div className="">

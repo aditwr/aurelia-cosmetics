@@ -4,19 +4,14 @@ import iconSearch from "./../../../assets/img/icons/icon-search.svg";
 import iconFavorite from "./../../../assets/img/icons/icon-favorite.svg";
 import iconShopCart from "./../../../assets/img/icons/icon-shopping-cart.svg";
 import iconHamburger from "./../../../assets/img/icons/icon-hamburger.svg";
-import anime from "animejs";
+
+// React Router
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
-  componentDidMount() {
-    anime({
-      targets: "header",
-      opacity: [0, 1],
-      duration: 500,
-    });
-  }
   render() {
     return (
-      <header className="header w-full fixed z-50 navbar-wrapper bg-palleteWhite h-16 shadow-sm">
+      <header className="w-full fixed z-50 bg-palleteWhite h-16 shadow-sm">
         <nav className="navbar-container h-full px-5 lg:px-0 lg:w-[1200px] mx-auto flex items-center">
           {/* brand container */}
           <div className="brand-container w-1/2 lg:w-3/12 h-full">
@@ -32,19 +27,30 @@ export default class Navbar extends Component {
           <div className="nav-menu-container hidden lg:flex justify-center lg:w-6/12 h-full">
             <div className="nav-menu h-full pt-6">
               <ul className="text-slate-700 font-montserrat text-sm">
-                <li className="inline-block mx-4">
-                  <p className="font-medium underline underline-offset-4">
+                <li className="inline-block mx-2">
+                  <Link to="/" className="font-bold py-2 px-3">
                     Home
-                  </p>
+                  </Link>
                 </li>
-                <li className="inline-block mx-4">
-                  <p className="font-medium">Shop</p>
+                <li className="inline-block mx-2">
+                  <Link to="/shop" className="font-medium py-2 px-3">
+                    Shop
+                  </Link>
                 </li>
-                <li className="inline-block mx-4">
-                  <p className="font-medium">Product</p>
+                <li className="inline-block mx-2">
+                  <Link to="/products" className="font-medium py-2 px-3">
+                    Products
+                  </Link>
                 </li>
-                <li className="inline-block mx-4">
-                  <p className="font-medium">Blog</p>
+                <li className="inline-block mx-2">
+                  <Link to="/blog" className="font-medium py-2 px-3">
+                    Blog
+                  </Link>
+                </li>
+                <li className="inline-block mx-2">
+                  <Link to="/about" className="font-medium py-2 px-3">
+                    About
+                  </Link>
                 </li>
               </ul>
             </div>

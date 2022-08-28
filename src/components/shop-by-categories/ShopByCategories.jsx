@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import SectionHead from "../partials/SectionHead";
-import SeeAllButton from "../partials/SeeAllButton";
+import SectionHead from "../../partials/SectionHead";
+import SeeAllButton from "../../partials/SeeAllButton";
 import Categories from "./Categories";
 
 export default class ShopByCategories extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import SectionHead from "../partials/SectionHead";
-import SeeAllButton from "../partials/SeeAllButton";
+import SectionHead from "../../partials/SectionHead";
+import SeeAllButton from "../../partials/SeeAllButton";
 import Products from "./Products";
 
 class PopularProduct extends Component {

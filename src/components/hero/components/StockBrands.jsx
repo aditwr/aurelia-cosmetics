@@ -17,7 +17,7 @@ export default class StockBrands extends Component {
         duration: 1000,
       })
       .add({
-        targets: ".brand-container",
+        targets: ".brand-container-for-stock-brand",
         width: "100%",
         easing: "linear",
       })
@@ -38,7 +38,7 @@ export default class StockBrands extends Component {
             Stock Brand Cosmetics
           </h3>
         </div>
-        <section className="brand-container w-0 mx-auto px-5 lg:px-0 flex items-center justify-center h-[86px] lg:h-[108px] bg-palleteDensity">
+        <section className="brand-container-for-stock-brand w-0 mx-auto px-5 lg:px-0 flex items-center justify-center h-[86px] lg:h-[108px] bg-palleteDensity">
           <div className="flex w-full sm:w-[320px] lg:w-[420px] justify-between h-[56px] lg:h-[72px]">
             <img
               src={brand1}
