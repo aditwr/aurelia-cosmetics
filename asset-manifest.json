@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aurelia-cosmetics/static/css/main.cc4b6d6c.css",
-    "main.js": "/aurelia-cosmetics/static/js/main.8a9e99f6.js",
+    "main.css": "/aurelia-cosmetics/static/css/main.f967dcf1.css",
+    "main.js": "/aurelia-cosmetics/static/js/main.55b0d759.js",
     "static/js/787.a99b3c1a.chunk.js": "/aurelia-cosmetics/static/js/787.a99b3c1a.chunk.js",
     "static/media/product-2.png": "/aurelia-cosmetics/static/media/product-2.9f2bc80ba68794861179.png",
     "static/media/product-1.png": "/aurelia-cosmetics/static/media/product-1.90f5a53c507170ea5707.png",
@@ -31,12 +31,12 @@
     "index.html": "/aurelia-cosmetics/index.html",
     "static/media/icon-hamburger.svg": "/aurelia-cosmetics/static/media/icon-hamburger.562099af893342b295d2bfc738493ed3.svg",
     "static/media/icon-search.svg": "/aurelia-cosmetics/static/media/icon-search.af8adc0f4e848fe93e3c3c854465b5bb.svg",
-    "main.cc4b6d6c.css.map": "/aurelia-cosmetics/static/css/main.cc4b6d6c.css.map",
-    "main.8a9e99f6.js.map": "/aurelia-cosmetics/static/js/main.8a9e99f6.js.map",
+    "main.f967dcf1.css.map": "/aurelia-cosmetics/static/css/main.f967dcf1.css.map",
+    "main.55b0d759.js.map": "/aurelia-cosmetics/static/js/main.55b0d759.js.map",
     "787.a99b3c1a.chunk.js.map": "/aurelia-cosmetics/static/js/787.a99b3c1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc4b6d6c.css",
-    "static/js/main.8a9e99f6.js"
+    "static/css/main.f967dcf1.css",
+    "static/js/main.55b0d759.js"
   ]
 }
