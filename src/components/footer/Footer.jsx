@@ -12,7 +12,7 @@ import messageIcon from "./../../assets/img/icons/icon-message.png";
 
 export default function Footer() {
   return (
-    <div className="bg-palleteBase mt-32">
+    <div className="bg-palleteBase">
       <section className="text-left px-5 lg:px-0 lg:w-[1200px] mx-auto">
         <div className="discont-section pt-8">
           <div className="md:flex border-b border-slate-300 pb-6">

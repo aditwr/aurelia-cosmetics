@@ -49,3 +49,7 @@
 .swiper-button-prev {
   --swiper-navigation-color: #503223;
 }
+
+.show {
+  display: flex !important;
+}
