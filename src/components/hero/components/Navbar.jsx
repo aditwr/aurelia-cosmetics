@@ -55,7 +55,7 @@ export default class Navbar extends Component {
           {/* nav menu */}
           <div
             id="nav-menu"
-            className="absolute top-16 right-0 lg:static nav-menu-container w-full overflow-hidden h-0 bg-white opacity-0 border-b border-slate-200 lg:bg-transparent flex lg:flex justify-center lg:w-6/12 lg:h-full"
+            className="absolute top-16 right-0 lg:static nav-menu-container w-full overflow-hidden h-0 bg-white opacity-0 lg:opacity-100 border-b border-slate-200 lg:bg-transparent flex lg:flex justify-center lg:w-6/12 lg:h-full"
           >
             <div className="nav-menu flex justify-center lg:block h-full w-full lg:w-auto lg:pt-6">
               <ul className="flex items-center sm:gap-x-6 lg:block text-slate-700 font-montserrat text-sm">
