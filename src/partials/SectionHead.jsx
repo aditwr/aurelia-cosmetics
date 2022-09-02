@@ -13,7 +13,7 @@ export default class SectionHead extends Component {
           <h3 className="font-bold text-lg md:text-xl lg:text-2xl mb-2">
             {this.props.title}
           </h3>
-          <p className=" text-slate-600 xl:text-lg">{this.props.subtitle}</p>
+          <p className=" text-slate-600 lg:text-lg">{this.props.subtitle}</p>
         </div>
         <div className="mt-8">
           <SeeAllButton addClass="hidden md:block md:absolute md:right-0 md:bottom-0" />

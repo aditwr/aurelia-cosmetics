@@ -7,8 +7,12 @@ import BoxSlider from "../components/sliders/BoxSlider";
 import PageTitle from "../partials/PageTitle";
 import ProductBox from "../partials/ProductBox";
 
-import brand1 from "./../assets/img/hero/brand-1.png";
 import product1 from "./../assets/img/popular-product/product-1.png";
+import product2 from "./../assets/img/popular-product/product-2.png";
+import product3 from "./../assets/img/popular-product/product-3.png";
+import product4 from "./../assets/img/popular-product/product-4.png";
+import product5 from "./../assets/img/popular-product/product-5.png";
+import product6 from "./../assets/img/popular-product/product-6.png";
 
 class Shop extends Component {
   render() {
@@ -53,42 +57,56 @@ class Shop extends Component {
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-8">
               <div className="">
                 <ProductBox
-                  img={product1}
+                  img={product6}
+                  price="$39.00"
+                  productName="Powder"
+                />
+              </div>
+              <div className="">
+                <ProductBox
+                  img={product5}
+                  price="$39.00"
+                  productName="Mascara"
+                />
+              </div>
+              <div className="">
+                <ProductBox
+                  img={product4}
                   price="$39.00"
                   productName="Lipstick"
                 />
               </div>
               <div className="">
                 <ProductBox
-                  img={product1}
+                  img={product3}
                   price="$39.00"
                   productName="Lipstick"
                 />
               </div>
               <div className="">
                 <ProductBox
-                  img={product1}
+                  img={product2}
                   price="$39.00"
-                  productName="Lipstick"
+                  productName="Hair Mask"
                 />
               </div>
               <div className="">
                 <ProductBox
                   img={product1}
                   price="$39.00"
-                  productName="Lipstick"
+                  productName="Oir Serum"
                 />
               </div>
               <div className="">
                 <ProductBox
-                  img={product1}
+                  img={product6}
                   price="$39.00"
-                  productName="Lipstick"
+                  productName="Powder"
                 />
               </div>
               <div className="">
                 <ProductBox
-                  img={product1}
+                  img={product4}
                   price="$39.00"
                   productName="Lipstick"
                 />
