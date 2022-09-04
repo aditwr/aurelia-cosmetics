@@ -1,6 +1,7 @@
 import { faAngleRight, faSliders } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
+import { Pagination } from "swiper";
 import ButtonSuccess from "../components/input/ButtonSuccess";
 import InputTextDefault from "../components/input/InputTextDefault";
 import BoxSlider from "../components/sliders/BoxSlider";
@@ -112,29 +113,7 @@ class Shop extends Component {
                 />
               </div>
             </div>
-            {/* pagination */}
-            <div className="w-full flex justify-center mt-12">
-              <div className="w-auto flex gap-x-2">
-                {/* item */}
-                <div className="w-8 h-8 bg-palleteFreshness border border-palleteFreshness flex">
-                  <p className="m-auto">1</p>
-                </div>
-                <div className="w-8 h-8 bg-white border flex">
-                  <p className="m-auto">2</p>
-                </div>
-                <div className="w-8 h-8 bg-white border flex">
-                  <p className="m-auto">3</p>
-                </div>
-                <div className="w-8 h-8 bg-white border flex">
-                  <p className="m-auto">4</p>
-                </div>
-                <div className="w-8 h-8 bg-white border flex">
-                  <p className="m-auto">
-                    <FontAwesomeIcon icon={faAngleRight} />
-                  </p>
-                </div>
-              </div>
-            </div>
+            <Pagination />
           </div>
         </div>
       </div>
