@@ -20,8 +20,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
-          <Route path="shop" element={<Shop />} />
           <Route path="products" element={<Products />} />
+          <Route path="shop" element={<Shop />} />
           <Route path="blog" element={<Blog />} />
           <Route path="about" element={<About />} />
           <Route path="aurelia-cosmetics" element={<Home />} />

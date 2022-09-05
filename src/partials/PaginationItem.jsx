@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
-export default function Pagination() {
+export default function PaginationItem() {
   return (
     <div className="w-full flex justify-center mt-12">
       <div className="w-auto flex gap-x-2">

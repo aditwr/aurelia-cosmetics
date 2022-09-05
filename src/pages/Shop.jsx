@@ -1,12 +1,12 @@
-import { faAngleRight, faSliders } from "@fortawesome/free-solid-svg-icons";
+import { faSliders } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
-import { Pagination } from "swiper";
 import ButtonSuccess from "../components/input/ButtonSuccess";
 import InputTextDefault from "../components/input/InputTextDefault";
 import BoxSlider from "../components/sliders/BoxSlider";
 import PageTitle from "../partials/PageTitle";
 import ProductBox from "../partials/ProductBox";
+import PaginationItem from "./../partials/PaginationItem";
 
 import product1 from "./../assets/img/popular-product/product-1.png";
 import product2 from "./../assets/img/popular-product/product-2.png";
@@ -113,7 +113,7 @@ class Shop extends Component {
                 />
               </div>
             </div>
-            <Pagination />
+            <PaginationItem />
           </div>
         </div>
       </div>

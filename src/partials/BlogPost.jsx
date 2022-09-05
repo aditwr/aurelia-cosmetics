@@ -7,9 +7,9 @@ export default function BlogPost() {
   return (
     <div className="py-4">
       {/* main */}
-      <div className="">
+      <div className="md:flex ">
         {/* image-container */}
-        <div className="w-full aspect-video flex">
+        <div className="md:basis-3/12 w-full aspect-video md:aspect-square flex">
           <img
             src={img1}
             alt="cosmetics post"
@@ -18,7 +18,7 @@ export default function BlogPost() {
         </div>
 
         {/* post-text-content */}
-        <div className="py-4">
+        <div className="md:basis-9/12 py-4 md:py-0 md:pl-4 md:flex md:items-center">
           <div className="">
             <p className="text-xs font-medium opacity-90">
               Hair | Desember 12, 2022
@@ -26,7 +26,7 @@ export default function BlogPost() {
             <h5 className="text-lg font-medium">Lorem ipsum dolor sit amet.</h5>
             <p className="text-sm opacity-80 mb-3">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Assumenda id odit ratione perspiciatis quam tempore ullam.
+              Assumenda id odit ratione perspiciatis quam tempore ullam...
             </p>
             <ButtonOutline />
           </div>
