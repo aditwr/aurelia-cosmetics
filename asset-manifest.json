@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aurelia-cosmetics/static/css/main.7e190a6e.css",
-    "main.js": "/aurelia-cosmetics/static/js/main.606d49c5.js",
+    "main.css": "/aurelia-cosmetics/static/css/main.9599e138.css",
+    "main.js": "/aurelia-cosmetics/static/js/main.fb71e43e.js",
     "static/js/787.a99b3c1a.chunk.js": "/aurelia-cosmetics/static/js/787.a99b3c1a.chunk.js",
     "static/media/product-2.png": "/aurelia-cosmetics/static/media/product-2.9f2bc80ba68794861179.png",
     "static/media/product-1.png": "/aurelia-cosmetics/static/media/product-1.90f5a53c507170ea5707.png",
@@ -31,12 +31,13 @@
     "index.html": "/aurelia-cosmetics/index.html",
     "static/media/icon-hamburger.svg": "/aurelia-cosmetics/static/media/icon-hamburger.562099af893342b295d2bfc738493ed3.svg",
     "static/media/icon-search.svg": "/aurelia-cosmetics/static/media/icon-search.af8adc0f4e848fe93e3c3c854465b5bb.svg",
-    "main.7e190a6e.css.map": "/aurelia-cosmetics/static/css/main.7e190a6e.css.map",
-    "main.606d49c5.js.map": "/aurelia-cosmetics/static/js/main.606d49c5.js.map",
+    "static/media/bag-heart-fill.svg": "/aurelia-cosmetics/static/media/bag-heart-fill.33a9bb2792351f32a7d4dfe418de4e11.svg",
+    "main.9599e138.css.map": "/aurelia-cosmetics/static/css/main.9599e138.css.map",
+    "main.fb71e43e.js.map": "/aurelia-cosmetics/static/js/main.fb71e43e.js.map",
     "787.a99b3c1a.chunk.js.map": "/aurelia-cosmetics/static/js/787.a99b3c1a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e190a6e.css",
-    "static/js/main.606d49c5.js"
+    "static/css/main.9599e138.css",
+    "static/js/main.fb71e43e.js"
   ]
 }
