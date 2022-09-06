@@ -8,10 +8,10 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Products from "./pages/Products";
 import Shop from "./pages/Shop";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
+import ContactUs from "./pages/ContactUs";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,12 +19,14 @@ root.render(
     <React.StrictMode>
       <Routes>
         <Route path="/" element={<App />}>
+          {/* outlet-list */}
           <Route index element={<Home />} />
-          <Route path="products" element={<Products />} />
           <Route path="shop" element={<Shop />} />
           <Route path="blog" element={<Blog />} />
           <Route path="about" element={<About />} />
           <Route path="aurelia-cosmetics" element={<Home />} />
+          {/* descendant-routes */}
+          <Route path="contact/*" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

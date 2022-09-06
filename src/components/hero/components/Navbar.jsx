@@ -6,7 +6,7 @@ import iconShopCart from "./../../../assets/img/icons/icon-shopping-cart.svg";
 import iconHamburger from "./../../../assets/img/icons/icon-hamburger.svg";
 
 // React Router
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import anime from "animejs";
 
 export default class Navbar extends Component {
@@ -60,29 +60,54 @@ export default class Navbar extends Component {
             <div className="nav-menu flex justify-center lg:block h-full w-full lg:w-auto lg:pt-6">
               <ul className="flex items-center sm:gap-x-6 lg:block text-slate-700 font-montserrat text-sm">
                 <li className="inline-block lg:mx-2">
-                  <Link to="/" className="font-bold py-2 px-3">
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      isActive ? "font-bold py-2 px-3" : "font-medium py-2 px-3"
+                    }
+                  >
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="inline-block lg:mx-2">
-                  <Link to="/shop" className="font-medium py-2 px-3">
+                  <NavLink
+                    to="/shop"
+                    className={({ isActive }) =>
+                      isActive ? "font-bold py-2 px-3" : "font-medium py-2 px-3"
+                    }
+                  >
                     Shop
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="inline-block lg:mx-2">
-                  <Link to="/products" className="font-medium py-2 px-3">
-                    Products
-                  </Link>
-                </li>
-                <li className="inline-block lg:mx-2">
-                  <Link to="/blog" className="font-medium py-2 px-3">
+                  <NavLink
+                    to="/blog"
+                    className={({ isActive }) =>
+                      isActive ? "font-bold py-2 px-3" : "font-medium py-2 px-3"
+                    }
+                  >
                     Blog
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className="inline-block lg:mx-2">
-                  <Link to="/about" className="font-medium py-2 px-3">
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      isActive ? "font-bold py-2 px-3" : "font-medium py-2 px-3"
+                    }
+                  >
                     About
-                  </Link>
+                  </NavLink>
+                </li>
+                <li className="inline-block lg:mx-2">
+                  <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                      isActive ? "font-bold py-2 px-3" : "font-medium py-2 px-3"
+                    }
+                  >
+                    Contact Us
+                  </NavLink>
                 </li>
               </ul>
             </div>
